@@ -1,0 +1,35 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Downloaded and generated datasets
+.config/
+SingleCellPAP/
+Balanced_Dataset/
+data/
+datasets/
+downloads/
+balanced_cells.zip
+
+# GAN model checkpoints
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+runs/
+
+# Temporary files
+*.log
+*.tmp
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
